@@ -6,7 +6,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: my-spring-boot-app  
+      app: my-spring-boot-app
   template:
     metadata:
       name: my-spring-boot-app
